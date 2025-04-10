@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import Gallery from './components/Gallery';
 
-// Root component of the app
+// Root component of the app (AI generated comment)
+
 function App() {
   const [tours, setTours] = useState([]);
 
-//
+// Function to remove a tour from the list (AI generated comment)
+
 const removeTour = (id) => {
   const updatedTours = tours.filter((tour) => tour.id !== id);
   setTours(updatedTours);
 };
+
+// Render the main application (AI generated comment)
 
 return (
   <main>
